@@ -1,7 +1,7 @@
 const expect = require("expect.js");
 
 // @params function -
-// testSuite: array of Object { input: { ...params}, expected: value}
+// testSuite: [] array of Object { input: { ...params}, expected: value}
 const test = (fn, testSuite, outStream = console.log) => {
   let count = 1;
   outStream(
